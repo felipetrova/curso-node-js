@@ -12,6 +12,7 @@ mongoose.connect(
     seUnifiedTopology: true
   }
 );
+require('./src/models/Product');
 
 // Primeira rota
 app.get('/', (req, res) => {
