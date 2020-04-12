@@ -1,3 +1,3 @@
-# curso-node-js
+# NodeJS server
 
-Curso de NodeJS da Rocketseat
+A simple base for servers with the technologies:
