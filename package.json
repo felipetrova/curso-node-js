@@ -1,5 +1,5 @@
 {
-  "name": "curso-node-js",
+  "name": "nodejs-server",
   "version": "1.0.0",
   "description": "Curso de NodeJS da Rocketseat",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felipetrova/curso-node-js.git"
+    "url": "git+https://github.com/felipetrova/nodejs-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/felipetrova/curso-node-js/issues"
+    "url": "https://github.com/felipetrova/nodejs-server/issues"
   },
-  "homepage": "https://github.com/felipetrova/curso-node-js#readme",
+  "homepage": "https://github.com/felipetrova/nodejs-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
