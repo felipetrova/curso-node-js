@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const requireDir = require('require-dir');
 
 // Iniciando o App
 const app = express();
@@ -12,11 +13,9 @@ mongoose.connect(
     seUnifiedTopology: true
   }
 );
-require('./src/models/Product');
+requireDir('./src/models');
 
-// Primeira rota
-app.get('/', (req, res) => {
-  res.send('Hello Felipe Trova');
-});
+// Rotas
+app.use('/api', require('./src/routes'));
 
 app.listen(3001);
