@@ -2,7 +2,7 @@
 
 A simple base for servers with the technologies:
 
-![enter image description here](assets/nodejs.svg) ![enter image description here](assets/docker.svg) ![enter image description here](assets/mongodb.svg)
+[![NodeJS](assets/nodejs.svg)](https://nodejs.org/en/) [![Docker](assets/docker.svg)](https://www.docker.com/) [![MongoDB](assets/mongodb.svg)](https://www.mongodb.com/)
 
 ## How to run
  - Access your path: `cd navigate/to/your/path`;
